@@ -1,0 +1,9 @@
+replicaCount: 1
+image:
+  repository: marcelo-bertho/python-12345
+  pullPolicy: IfNotPresent
+  tag: python-12345-dev-latest
+resources:
+  requests:
+    cpu: 40m
+    memory: 40M
